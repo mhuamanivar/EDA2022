@@ -6,9 +6,13 @@ public class Ejemplo_variables
 		edad = 18;
 		nacim = 2003;
 		String nombre = "Maria";
+		char genero = 'F';
+		boolean mayorDeEdad = true;
 
-		System.out.println("Su nombre es "+nombre);
-		System.out.println("Nacio en "+nacim+" y tiene "+edad+"años");
+		System.out.println("Datos de: "+nombre);
+		System.out.println("Año de nacimiento: "+nacim);
+		System.out.println("Genero: "+genero);
+		System.out.println("Mayor de edad: "+mayorDeEdad);
 
 	}
 }
