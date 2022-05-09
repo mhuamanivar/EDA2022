@@ -3,8 +3,10 @@ public class Ejemplo_type_casting
 	public static void main(String args[]) {
 		        
 		//Casting automatico
-		short sh = 1;
-		System.out.println("Numero de tipo short: "+sh);
+		byte bt = 1;
+		System.out.println("Numero de tipo byte: "+bt);
+		short sh = bt;
+		System.out.println("Numero de byte a short: "+sh);
 		int ent = sh;
 		System.out.println("Numero de short a int: "+ent);
 		double doub = ent;
@@ -17,5 +19,7 @@ public class Ejemplo_type_casting
 		System.out.println("Numero de double a int: "+ent2);
 		short sh2 = (short)(ent2);
 		System.out.println("Numero de int a short: "+sh2);
+		byte bt2 = (byte)(sh2);
+		System.out.println("Numero de short a byte: "+bt2);
 	}
 }
