@@ -4,6 +4,9 @@ public class Ejemplo_switch
 
 		String operacion = "+";
 		int n1 = 5, n2 = 7;
+		
+		System.out.println("Numero 1: "+n1);
+		System.out.println("Numero 2: "+n2);
 
 		switch(operacion) {
 			case "+":
