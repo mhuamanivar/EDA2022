@@ -14,16 +14,13 @@ public class Ejemplo_method_parameters
 		switch(o) {
 			case "+":
 				return a + b;
-				break;
 			case "-":
 				return a - b;
-				break;
 			case "*":
 				return a * b;
-				break;
 			case "/":
 				return a / b;
-				break;
 		}
+		return 0;
 	}
 }
